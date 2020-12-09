@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block css %}
+<style>
+
+    .container {
+
+        width: 750px;
+        border-radius: 25px;
+        border-color:#0066ff;
+        border-style: solid;
+        margin-top: 50px;
+
+    }
+    .form-row {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    button {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+   
+
+</style>
+{% endblock %}
+
+{% block title %} Welcome {% endblock %}
+
+
+
+{% block content %}
+{% load crispy_forms_tags %}
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F2503402%2Faccount_avatar_blue_man_people_person_profile_icon&psig=AOvVaw2ZaT4V3IxPoWx1bt0VcGd8&ust=1582825343063000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjg-Yni7-cCFQAAAAAdAAAAABAP"></img>
+
+    <div class="container">
+        <form method="POST" novaildate>
+            {% csrf_token %}
+            
+           
+        </form>
+
+    </div>    
+
+{% endblock %}
+  <!--
+           {{ Stud_form.year_of_graduation |as_crispy_field   }}          
+            {{Stud_form..date_of_birth |as_crispy_field  ]}                 
+            {{Stud_form.technical_program |as_crispy_field }}
+            {{Stud_form.street_address |as_crispy_field }}                
+            {{Stud_form.city |as_crispy_field  }}                           
+            {{Stud_form.apt |as_crispy_field  }}                            
+            {{sStud_form.tate |as_crispy_field    }}                       
+            {{Stud_form.zip_code  |as_crispy_field          }}              
+            {{Stud_form.phone_number  |as_crispy_field    }}               
+            {{Stud_form.company_name  |as_crispy_field   }}                 
+           {{Stud_form.company_address |as_crispy_field  }}            
+            {{Stud_form.company_number |as_crispy_field   }}              
+            {{Stud_form.job_title |as_crispy_field  }}                      
+            {{Stud_form.wage |as_crispy_field    }}                        
+            {{Stud_form.college_acceptance_letter |as_crispy_field    }}   
+           {{ Stud_form.college_attend |as_crispy_field   }}               
+            {{Stud_form.college_major |as_crispy_field  }}                 
+            {{Stud_form.college_year_length |as_crispy_field      }}       
+           {{Stud_form.military_branch  |as_crispy_field     }}           
+            {{Stud_form.military_letter |as_crispy_field }}
+            {{Stud_form.A_adams_scholarship |as_crispy_field   }}          
+            {{Stud_form.technical_certification |as_crispy_field    }}      
+            {{Stud_form.osha_training |as_crispy_field }}                   
+            {{Stud_form.osha_number  |as_crispy_field   }}                  
+           {{ Stud_form.WTHS_certification |as_crispy_field     }}        
+            {{future_plans |as_crispy_field     }}                
+

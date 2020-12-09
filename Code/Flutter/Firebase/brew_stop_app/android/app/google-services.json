@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "767578142953",
+    "firebase_url": "https://auth-brew-crew.firebaseio.com",
+    "project_id": "auth-brew-crew",
+    "storage_bucket": "auth-brew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767578142953:android:1c0f2d2893c39002c19878",
+        "android_client_info": {
+          "package_name": "macdolven.brewcrewapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767578142953-g1a5hi44fjgma1m27gb0l9r2b4uct39c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxRV0AfZJNORVwVPCeiBQw8heKWGXLINo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767578142953-g1a5hi44fjgma1m27gb0l9r2b4uct39c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "767578142953-7ag6sfrht8e6tig1q8rubdgap3dsh4oc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "macdolven.brewcrewapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
